@@ -9,6 +9,9 @@
   <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
   <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
   <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 </head>
 
 <body>
@@ -35,12 +38,28 @@
     <main class="content">
 
       <!-- mv -->
-      <div class="mv">
+      <!-- <div class="mv">
         <div class="mv-container">
           <img src="img/main.jpg" alt="メインイメージ">
         </div>
-      </div>
+      </div> -->
       <!-- /mv -->
+
+      <!-- カルーセル -->
+      <section id="carousel-section">
+        <div class="carousel">
+            <div>
+                <img class="carouselImg" src="img\main.jpg">
+            </div>
+            <div>
+                <img class="carouselImg" src="img\main2.jpg">
+            </div>
+            <div>
+                <img class="carouselImg" src="img\main3.jpg">
+            </div>
+        </div>
+      </section>
+
 
       <!-- works -->
       <section class="works section" id="works">
@@ -58,24 +77,24 @@
               <p class="works-info">HTML/CSS</p>
             </a>
             <a class="works-item" href="works-3.html">
-              <div class="works-img"><img src="img/works/wordpress1.png" alt="WordPress" /></div>
+              <div class="works-img"><img src="img/works/wordpress.png" alt="WordPress" /></div>
               <p class="works-name">美容室のHP</p>
               <p class="works-info">WordPress</p>
             </a>
             <a class="works-item" href="works-4.html">
-              <div class="works-img"><img src="img/works/photoshop.png" alt="Photoshop" /></div>
-              <p class="works-name">ITスクールのバナー</p>
-              <p class="works-info">Photoshop</p>
+              <div class="works-img"><img src="img/works/typing.png" alt="typingGame" /></div>
+              <p class="works-name">タイピングゲーム</p>
+              <p class="works-info">HTML/CSS/JavaScript</p>
             </a>
             <a class="works-item" href="works-5.html">
-              <div class="works-img"><img src="img/works/xd.png" alt="AdobeXD" /></div>
-              <p class="works-name">ITスクールのLP</p>
-              <p class="works-info">AdobeXD</p>
+              <div class="works-img"><img src="img/works/Laravel.png" alt="Laravel" /></div>
+              <p class="works-name">ECサイト</p>
+              <p class="works-info">Laravel</p>
             </a>
             <a class="works-item" href="works-6.html">
-              <div class="works-img"><img src="img/works/wordpress2.png" alt="WordPress2" /></div>
-              <p class="works-name">大学のHP</p>
-              <p class="works-info">WordPress/PHP</p>
+              <div class="works-img"><img src="img/works/ikkyusekkotsuinn.png" alt="html3" /></div>
+              <p class="works-name">接骨院のHP</p>
+              <p class="works-info">HTML/CSS/レスポンシブ対応</p>
             </a>
           </div>
         </div>
@@ -190,5 +209,11 @@
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script type='text/javascript' src="js/script.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
